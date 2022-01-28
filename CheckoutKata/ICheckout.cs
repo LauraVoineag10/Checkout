@@ -5,4 +5,6 @@ public interface ICheckout
     int CalculatePrice(int name);
     int CalculatePriceA(int itemA, int priceA);
     public int CalculateTotalPriceWithDiscountA(int itemA, int priceA);
+    public int CalculateTotalPriceWithDiscountARefactored(int itemA, int priceA, int discountRuleA, int discountValueA);
+
 }

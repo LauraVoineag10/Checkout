@@ -18,6 +18,9 @@
 
             var totalPriceAWithDiscountA = checkout.CalculateTotalPriceWithDiscountA(3, 50);
             Console.WriteLine(totalPriceAWithDiscountA);
+
+            var totalPriceWithDiscountARefactored = checkout.CalculateTotalPriceWithDiscountARefactored(3, 50, 3, 20);
+            Console.WriteLine(totalPriceWithDiscountARefactored);
         }
     }
 }

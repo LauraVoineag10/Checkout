@@ -18,17 +18,28 @@ namespace Application
         {
             return itemA * priceA;
         }
-        //Calculating price of A with discount
+        //Calculating price of A with discount - set numbers
         public int CalculateTotalPriceWithDiscountA(int itemA, int priceA)
         {
-            int totalPrice = 0;
-
-            totalPrice = itemA * priceA;
+            int totalPrice = itemA * priceA;
             if (itemA == 3)
             {
                 totalPrice -= 20;
             }
             return totalPrice;
         }
+
+        //Calculating price of A using naming variables -refactored
+
+        public int CalculateTotalPriceWithDiscountARefactored (int itemA, int priceA, int discountRuleA, int discountValueA)
+        {
+            int totalPrice = itemA * priceA;
+            if (itemA == discountRuleA)
+            {
+                totalPrice -= discountValueA;
+            }
+            return totalPrice;
+        }
+
     }
 }

@@ -1,6 +1,0 @@
-C:\Users\Laura.Voineag\Code\CheckoutKata\Tests.CheckoutKata\bin\Debug\net6.0\CoverletSourceRootsMapping
-C:\Users\Laura.Voineag\Code\CheckoutKata\Tests.CheckoutKata\obj\Debug\net6.0\Tests.CheckoutKata.csproj.AssemblyReference.cache
-C:\Users\Laura.Voineag\Code\CheckoutKata\Tests.CheckoutKata\obj\Debug\net6.0\Tests.CheckoutKata.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Laura.Voineag\Code\CheckoutKata\Tests.CheckoutKata\obj\Debug\net6.0\Tests.CheckoutKata.AssemblyInfoInputs.cache
-C:\Users\Laura.Voineag\Code\CheckoutKata\Tests.CheckoutKata\obj\Debug\net6.0\Tests.CheckoutKata.AssemblyInfo.cs
-C:\Users\Laura.Voineag\Code\CheckoutKata\Tests.CheckoutKata\obj\Debug\net6.0\Tests.CheckoutKata.csproj.CoreCompileInputs.cache
