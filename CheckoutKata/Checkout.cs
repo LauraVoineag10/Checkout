@@ -39,18 +39,18 @@ namespace Application
                 totalPrice -= (itemA/discountRuleA)*discountValueA;
             }
             return totalPrice;
-
-
-           /* varA =[ProductA1, ProductA2, ProductA3].CalculateTotalPriceWithDiscountARefactored
-
-varB =[ProductB1, ProductB2, ProductB3].CalculateTotalPriceWithDiscountARefactored
-
-varC = [ProductC1, ProductC2, ProductC3].CalculateTotalPriceWithDiscountARefactored
-
-            total_price = varA + var B + varc*/
         }
-
-
-
     }
 }
+
+//Notes for completing kata
+            /* varA =[ProductA1, ProductA2, ProductA3].CalculateTotalPriceWithDiscountARefactored
+
+            varB =[ProductB1, ProductB2, ProductB3].CalculateTotalPriceWithDiscountARefactored
+
+            varC = [ProductC1, ProductC2, ProductC3].CalculateTotalPriceWithDiscountARefactored
+
+            total_price = varA + var B + var C
+            
+             Scan - how to save a list in memory
+            Total price using a for loop?*/
