@@ -1,4 +1,4 @@
-/*using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Application
 {
@@ -6,17 +6,17 @@ namespace Application
     public class CheckoutTests
     {
         [TestMethod]
-        public void TestPrint()
+        public void TestCalculatePrice()
         {
             //Arrange
             Checkout checkout = new Checkout();
-            string expected = "Scanning item";
+            int expected = 50;
 
             //Act
-            string result = checkout.Print();
+            int result = checkout.CalculatePrice(50);
 
             //Assert
             Assert.AreEqual(expected, result);
         }
     }
-}*/
+}

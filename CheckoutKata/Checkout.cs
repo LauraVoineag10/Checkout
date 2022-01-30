@@ -29,17 +29,28 @@ namespace Application
             return totalPrice;
         }
 
-        //Calculating price of A using naming variables -refactored
+        //Calculating price of A using object. Object Oriented Programming 
 
-        public int CalculateTotalPriceWithDiscountARefactored (int itemA, int priceA, int discountRuleA, int discountValueA)
+        public int CalculateTotalPriceWithDiscountARefactored (int itemA, Product productA, int discountRuleA, int discountValueA)
         {
-            int totalPrice = itemA * priceA;
-            if (itemA == discountRuleA)
+            int totalPrice = itemA * productA.Price;
+            if (itemA % discountRuleA == 0)
             {
-                totalPrice -= discountValueA;
+                totalPrice -= (itemA/discountRuleA)*discountValueA;
             }
             return totalPrice;
+
+
+           /* varA =[ProductA1, ProductA2, ProductA3].CalculateTotalPriceWithDiscountARefactored
+
+varB =[ProductB1, ProductB2, ProductB3].CalculateTotalPriceWithDiscountARefactored
+
+varC = [ProductC1, ProductC2, ProductC3].CalculateTotalPriceWithDiscountARefactored
+
+            total_price = varA + var B + varc*/
         }
+
+
 
     }
 }
