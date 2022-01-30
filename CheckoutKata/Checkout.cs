@@ -52,5 +52,5 @@ namespace Application
 
             total_price = varA + var B + var C
             
-             Scan - how to save a list in memory
+             Scan - how to save a list in memory, scan items and the program to remember what's scanned?
             Total price using a for loop?*/
