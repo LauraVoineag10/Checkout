@@ -40,6 +40,18 @@ namespace Application
             }
             return totalPrice;
         }
+
+        //Calculating pricingRuleA.Object Oriented Programming
+
+        public int CalcTotalDiscPricingRule(int item, Product product, PricingRule pricingRule)
+        {
+            int totalPrice = item * product.Price;
+            if (item% pricingRule.ItemCount==0)
+            {
+                totalPrice -= (item / pricingRule.ItemCount) * pricingRule.TotalDiscount;
+            }
+            return (totalPrice);
+        }
     }
 }
 

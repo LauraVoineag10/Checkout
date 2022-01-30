@@ -19,16 +19,26 @@
             var totalPriceAWithDiscountA = checkout.CalculateTotalPriceWithDiscountA(3, 50);
             Console.WriteLine(totalPriceAWithDiscountA);
 
-            //calculating A total with Discount for 6 items using hard numbers
+            //calculating A total with Discount for 6 items of A using hard numbers
             //var totalPriceWithDiscountARefactored = checkout.CalculateTotalPriceWithDiscountARefactored(6, 50, 3, 20);
             //Console.WriteLine(totalPriceWithDiscountARefactored);
 
 
-            //calculating A total with Discount for 6 items object
+            //calculating A total with Discount for 6 items of A using object instead of 50
             Product productA = new Product("A", 50);
 
             var totalPriceWithDiscountARefactored = checkout.CalculateTotalPriceWithDiscountARefactored(6, productA, 3, 20);
             Console.WriteLine(totalPriceWithDiscountARefactored);
+
+            //calculating A total with Discount for 6 items of A using object instead of 50,3,20
+            PricingRule pricingRuleA = new PricingRule("A", 3, 20);
+            var totalPriceDiscountObject = checkout.CalcTotalDiscPricingRule(6, productA, pricingRuleA);
+            Console.WriteLine(totalPriceDiscountObject);
+
+
+
+
+
 
 
 
